@@ -33,7 +33,7 @@ public class Test3 {
 			}
 			
 			int monthOfdays[]={31,28,31,30,31,30,31,31,30,31,30,31};
-			int RmonthOfdays[]={31,28,31,30,31,30,31,31,30,31,30,31};
+			int RmonthOfdays[]={31,29,31,30,31,30,31,31,30,31,30,31};
 			if (isRyear) {
 				for(int i=0;i<month-1;i++){
 					counts+=monthOfdays[i];
